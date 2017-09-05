@@ -1,0 +1,156 @@
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin: 0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;/*100px*/
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #f5f5f5;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height:0.6rem;
+	background: pink;
+	display: flex;
+	justify-content: space-between;
+}
+.header_logo{
+	height: 100%;
+	float: left;
+}
+
+.header_title{
+	color: #00c3f5;
+    line-height: 0.6rem;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 0.1rem;
+    float: left;
+}
+.header_tools{
+	float: right;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+.header_tools a{
+	float: left;
+	height: 0.6rem;
+    display: inline-block;
+    padding: 0.2rem 0.2rem 0 0;
+}
+.header_tools a .icon{
+	position: absolute;
+	top:0.3rem;
+	
+}
+
+
+/*banner轮播*/
+.swiper-container {
+    width: 100%;
+    /*height: 100%;*/
+} 
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+/*channel*/
+.channel{
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.1rem 0.1rem;
+	background: #fff;
+} 
+.channel_item{
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	color: #666;
+	padding-bottom: 0.1rem;
+}
+.channel_item_logo.pinpai{
+	background: url(../img/Cix_s1ey6muAcig9AAAPTa1fB5A416.png) no-repeat center;
+}   
+.channel_item_logo.fenqi{
+	background: url(../img/CnQOjVe8DqOAbMtOAAANSdyAxyU981.png) no-repeat center;
+}
+.channel_item_logo.dingdan{
+	background: url(../img/CnQOjVey6nSADwTOAAAN7hgzuDQ802.png) no-repeat center;
+}
+.channel_item_logo.fenlei{
+	background: url(../img/Cix_s1ey6pOAEsGUAAALuT1UZJc463.png) no-repeat center;
+}
+.channel_item_logo{
+	display: block;
+	width: 0.49rem;
+	height: 0.49rem;
+	background-size:contain;
+}
+.channel_item_txt{
+	display: block;
+	margin-top: 0.1rem;
+}
+
+/*middle_adv*/
+.middle_adv{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.middle_adv img{
+	width: 100%;
+}
+.adv_card{
+	width: 100%;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.adv_card a{
+	display: block;
+	width: 1.2rem;
+	height: 1.9rem;
+}
+.adv_card .adv_card_cells img{
+	width: 100%;
+	
+}
+
+/*card_recommend*/
+.card_recommend{
+	margin-top: 0.1rem;
+	background: #fff;
+}
+.card_recommend_header{
+	font-size: 15px;
+	height: 0.42rem;
+	line-height: 0.42rem;
+	padding-left: 0.2rem;
+	border-bottom: 1px solid #CCCCCC;
+	background: url(../img/line.png) no-repeat 0.1rem center;
+}
+.content_bloc{
+	width: 50%;
+}
